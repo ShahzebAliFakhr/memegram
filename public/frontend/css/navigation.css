@@ -70,8 +70,8 @@
 
 .navigation__column .fa-search {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 12px;
+  left: 12px;
   color: rgba(0, 0, 0, 0.5);
   font-size: 12px;
 }

@@ -107,8 +107,8 @@
 }
 
 .profile__photos .profile__photo {
-  width: 31%;
-  margin-bottom: 35px;
+  width: 33%;
+  margin-bottom: 3px;
   position: relative;
 }
 
@@ -129,6 +129,7 @@
   font-weight: 600;
   opacity: 0;
   transition: opacity 0.2s linear;
+  cursor: pointer;
 }
 
 .profile__photo:hover .profile__photo-overlay {
@@ -148,4 +149,8 @@
 .profile__photo-overlay .overlay__item i {
   font-size: 130%;
   margin-right: 5px;
+}
+
+.profile__photo-overlay .overlay__item i.fa-heart {
+  color: #ff0000;
 }
