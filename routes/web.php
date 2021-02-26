@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/test', 'FrontEndController@test');
+
 Route::get('/', 'FrontEndController@index');
 Route::get('/feed', 'FrontEndController@feed');
 Route::get('/profile', 'FrontEndController@profile');
